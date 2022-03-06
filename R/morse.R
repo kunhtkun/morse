@@ -92,6 +92,11 @@ make_decode <- function(table, pre = identity) {
 # Morse code
 #
 
+# Morse code taken from https://en.wikipedia.org/wiki/Morse_code.
+# Note that this list currently only contains the Letter, Number, and Punctuation
+# categories.
+#
+# TODO: Add the non-Lation extensions as well.
 morse_code <- list(
   c("a", ".-"),
   c("b", "-..."),
